@@ -28,10 +28,11 @@ header{
 }
 
 header h1{
-    font-family: Passion One;
+    font-family: 'Passion One', cursive;
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 6vw;
+    font-variant: small-caps;
 }
 
 header p{
@@ -58,8 +59,14 @@ a:hover{
     line-height: 2em;
 }
 
+section#imagem{
+    background: black url('imagens/background002.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
 .transparente{
     padding: 60px 28px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.562);
 }
 
 .transparente p{
@@ -68,7 +75,8 @@ a:hover{
     font-family: Comic Relief;
     font-size: clamp(1.2em, 3vw, 2em);
     line-height: 2em;
-    max-width: 45vw;
+    display: inline-block;
+    padding: 10px;
 }
 
 
